@@ -24,8 +24,8 @@ display(){
 var paperpos=this.body.position;		
 push();
 translate(paperpos.x, paperpos.y);
-ellipseMode(CENTER)
-ellipse(0,0,this.r,this.r);
+imageMode(CENTER)
+image(this.image, 0,0,this.r,this.r);
 pop();
 }
 
